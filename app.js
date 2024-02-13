@@ -29,7 +29,9 @@ const date_time_now = {
 };
 
 elements_html.data_views_card_1.innerHTML = localStorage.getItem('views_card_1') || '0';
-elements_html.data_views_card_2.innerHTML = localStorage.getItem('views_card_2') || '0'; elements_html.data_views_card_3.innerHTML = localStorage.getItem('views_card_3') || '0'; elements_html.data_views_card_4.innerHTML = localStorage.getItem('views_card_4') || '0';
+elements_html.data_views_card_2.innerHTML = localStorage.getItem('views_card_2') || '0';
+elements_html.data_views_card_3.innerHTML = localStorage.getItem('views_card_3') || '0';
+elements_html.data_views_card_4.innerHTML = localStorage.getItem('views_card_4') || '0';
 
 /*
     funções
